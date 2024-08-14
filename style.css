@@ -1,0 +1,7 @@
+body{
+    background-color: lightblue;
+}
+.dropdown-item:hover{
+     background-color: lightskyblue;
+    transition: 0.3s;
+}

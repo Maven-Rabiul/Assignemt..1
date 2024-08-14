@@ -5,9 +5,184 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Assignment-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
+<!--Navbar-->
+<nav class="navbar bg-primary navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bolder " href="#">Rabiul</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item ">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Actions
+                    </a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item text-white" href="#">Action-1</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Action-2</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Action-3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white disabled" aria-disabled="False"> Map</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--Buttons-->
+<div class="container m-4">
+<button type="button" class="btn btn-primary text-dark">BTN-1</button>
+<button type="button" class="btn btn-secondary text-warning">BTN-2</button>
+<button type="button" class="btn btn-success">BTN-3</button>
+<button type="button" class="btn btn-danger">BTN-4</button>
+<button type="button" class="btn btn-warning text-danger">BTN-5</button>
+<button type="button" class="btn btn-info">BTN-6</button>
+<button type="button" class="btn btn-light">BTN-7</button>
+<button type="button" class="btn btn-dark">BTN-8</button>
+
+<button type="button" class="btn btn-link">BTN-9</button>
+<button type="button" class="btn btn-primary btn-lg text-warning rounded-bottom-1">Large button</button>
+</div>
+
+<!--Card-->
+
+<div class="container  m-4">
+<div class="card " style="width: 18rem;">
+    <img src="https://cdn.pixabay.com/photo/2023/10/17/09/01/seagull-8320687_1280.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Flying Bird</h5>
+        <p class="card-text">This is the most speedy bird, which can fly 4000 miles in a day.</p>
+        <a href="#" class="btn btn-primary">Fly to Sky</a>
+    </div>
+</div>
+</div>
+
+<!--Form-->
+<div class="container m-4">
+    <div class="mb-3">
+
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+
+    <label for="exampleFormControlInput2" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleFormControlInput2" placeholder="Passwprd">
+    </div>
+
+    <div class="mb-3">
+    <label for="formFile" class="form-label">Default file input</label>
+    <input class="form-control" type="file" id="formFile">
+    </div>
+
+<div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label"> Text area</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</div>
+
+<!--list group-->
+<div class="container m-4">
+
+
+<ul class="list-group">
+    <li class="list-group-item">Bangladesh</li>
+    <li class="list-group-item">India</li>
+    <li class="list-group-item">Srilanka</li>
+    <li class="list-group-item">Bhutan</li>
+    <li class="list-group-item">Nepal</li>
+</ul>
+
+</div>
+
+
+<!--progress bar-->
+<div class="container m-4">
+    <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">25%</div>
+    </div>
+    <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+    </div>
+    <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+    </div>
+    <div class="progress mb-1" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+    </div>
+</div>
+
+<!--Pagination-->
+<div class="container m-4">
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+</div>
+
+<!--Table-->
+
+<div class="container m-4">
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Serial</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Rahim</td>
+        <td>kader</td>
+
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Karim</td>
+        <td>Harun</td>
+
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Fingi</td>
+    </tr>
+    </tbody>
+</table>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
